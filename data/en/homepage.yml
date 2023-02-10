@@ -1,9 +1,9 @@
 ############################# banner ################################
 banner:
   enable : true
-  title : "The future <br> & Tech Expo"
+  title : "Microsoft Community Speakers"
   bg_image: "images/banner/banner-2.jpg"
-  date_time : "November 12, at 10.00am"
+  date_time : "May 20th, at 09:00am"
   button:
     enable : "Discover more"
     label : "Discover more"
@@ -12,12 +12,12 @@ banner:
 ########################## timer #################################
 timer:
   enable : true
-  title : "**Count the day** <br> until conference start"
+  title : "**Count the day** <br> until the workshop"
   # set timer
-  year: "2020"
-  month: "09"
-  day: "01"
-  hour: "01"
+  year: "2023"
+  month: "05"
+  day: "20"
+  hour: "09"
 
 ############################## Event ##############################
 event:
@@ -77,7 +77,7 @@ pricing:
 speaker:
   enable : true
   title_outline : "Speakers"
-  title : "Who're speaking"
+  title : "Who is speaking"
   content : "Accusantium provident suscipit dicta magni dolor deserunt nam obcaecati non veritatis optio."
   # speaker content comes from "content/speaker" folder
 
@@ -90,62 +90,62 @@ sponsor:
     ############################ sponsor group loop
     - title : "Amazing Partners & Sponsors"
       sponsor:
-        # sponcor loop
+        # sponsor loop
         - logo : "images/clients/client-img-1.png"
           link : "https://examplesite.org"
           
-        # sponcor loop
+        # sponsor loop
         - logo : "images/clients/client-img-2.png"
           link : "#"
           
-        # sponcor loop
+        # sponsor loop
         - logo : "images/clients/client-img-3.png"
           link : "https://examplesite.org"
           
-        # sponcor loop
+        # sponsor loop
         - logo : "images/clients/client-img-4.png"
           link : "#"
           
-        # sponcor loop
+        # sponsor loop
         - logo : "images/clients/client-img-5.png"
           link : "https://examplesite.org"
           
     ############################ sponsor group loop
     - title : "Platinum Sponsors"
       sponsor:
-        # sponcor loop
+        # sponsor loop
         - logo : "images/clients/client-img-6.png"
           link : "https://examplesite.org"
           
-        # sponcor loop
+        # sponsor loop
         - logo : "images/clients/client-img-7.png"
           link : "#"
           
-        # sponcor loop
+        # sponsor loop
         - logo : "images/clients/client-img-8.png"
           link : "#"
           
-        # sponcor loop
+        # sponsor loop
         - logo : "images/clients/client-img-9.png"
           link : "https://examplesite.org"
 
-        # sponcor loop
+        # sponsor loop
         - logo : "images/clients/client-img-1.png"
           link : "#"
           
-        # sponcor loop
+        # sponsor loop
         - logo : "images/clients/client-img-2.png"
           link : "#"
           
-        # sponcor loop
+        # sponsor loop
         - logo : "images/clients/client-img-3.png"
           link : "#"
           
-        # sponcor loop
+        # sponsor loop
         - logo : "images/clients/client-img-4.png"
           link : "https://examplesite.org"
           
-        # sponcor loop
+        # sponsor loop
         - logo : "images/clients/client-img-5.png"
           link : "#"
   

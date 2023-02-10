@@ -1,15 +1,15 @@
 ######################## default configuration ####################
-baseURL = "https://examplesite.org"
-title = "Vixcon"
+baseURL = "https://lukeevanstech.github.io/hugo-communityspeakers/"
+title = "Microsoft Tech Community Speakers"
 theme = "vixcon-hugo"
 # post pagination
 paginate = "4"
 # post excerpt
 summaryLength = "10"
 # disqus short name
-disqusShortname = "vixcon" # get your shortname form here : https://disqus.com
+# disqusShortname = "vixcon" # get your shortname form here : https://disqus.com
 # disable language
-disableLanguages = [] # desable language from here
+disableLanguages = ["fr"] # disable language from here
 
 # output
 [outputs]
@@ -127,7 +127,6 @@ map_latitude = "51.5223477"
 map_longitude = "-0.1622023"
 map_marker = "images/marker.png"
 
-
 ############################# social icon ############################
 [[params.social]]
 icon = "tf-ion-social-facebook"
@@ -160,7 +159,7 @@ home = "Home"
 # footer content
 footer_content = "We are a creative-led experiential Event Production Agency that helps brands connect, engage and evolve."
 # copyright
-copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com)"
+copyright = "Copyright &copy; 2023 Microsoft Community Speakers"
 
 
 ################################### French language #####################################
