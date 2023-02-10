@@ -1,12 +1,12 @@
 ---
-title: "Zoe Wilson"
+title: "Sara Fennah"
 date: 2019-09-10T13:51:25+06:00
 draft: false
-description: "this is meta description"
+description: "this is Sara's profile"
 bg_image : "images/bg/cta-bg.jpg"
 image : "images/teams/s-1.jpg"
-designation : "UI designer"
-email : "Martin@mail.com"
+designation : "Microsoft 365 Consultant/Trainer"
+email : "sara@m365mct.co.uk"
 type : "speaker"
 social:
   # social site loop
