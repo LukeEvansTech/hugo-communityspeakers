@@ -4,7 +4,7 @@ date: 2019-09-10T13:51:25+06:00
 draft: false
 description: "this is Sara's profile"
 bg_image : "images/bg/cta-bg.jpg"
-image : "images/teams/s-1.jpg"
+image : "static/images/teams/Prefered_Black_Crop_SM.JPG"
 designation : "Microsoft 365 Consultant/Trainer"
 email : "sara@m365mct.co.uk"
 type : "speaker"
