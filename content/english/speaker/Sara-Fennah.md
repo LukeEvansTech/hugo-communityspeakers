@@ -37,4 +37,4 @@ skill:
     content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi hendrerit elit turpis, a porttitor tellus sollicitudin at."
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+I've been training for more years than I care to admit (over 20). I love helping others to advance their owns skills and use of technology, whilst challenging myself to advance my own skills and expertise. Now focused on Microsoft 365, I train from beginner to admin and everyone in between, with a bit of Project, Visio and some SharePoint site building mixed in to keep things fresh.
