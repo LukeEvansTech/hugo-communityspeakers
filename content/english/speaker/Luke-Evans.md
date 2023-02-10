@@ -4,8 +4,8 @@ date: 2019-09-10T13:51:25+06:00
 draft: false
 description: "this is Luke's profile"
 bg_image : "images/bg/cta-bg.jpg"
-image : "images/teams/s-5.jpg"
-designation : "Organiser"
+image : "images/teams/luke-evans.png"
+designation : "Solutions Architect"
 email : "Martin@mail.com"
 type : "speaker"
 social:
