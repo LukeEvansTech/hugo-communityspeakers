@@ -2,7 +2,7 @@
 title: "Luke Evans"
 date: 2019-09-10T13:51:25+06:00
 draft: false
-description: "this is meta description"
+description: "this is Luke's profile"
 bg_image : "images/bg/cta-bg.jpg"
 image : "images/teams/s-5.jpg"
 designation : "Organiser"
