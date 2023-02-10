@@ -78,7 +78,7 @@ speaker:
   enable : true
   title_outline : "Speakers"
   title : "Who is speaking"
-  content : "Accusantium provident suscipit dicta magni dolor deserunt nam obcaecati non veritatis optio."
+  content : "A fantatic line up of established community speakers"
   # speaker content comes from "content/speaker" folder
 
 ######################### sponsor ############################
