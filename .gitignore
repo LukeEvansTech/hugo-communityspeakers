@@ -17,11 +17,18 @@ hugo.linux
 
 
 # Custom additions
+
 # Secrets stored in the env file
 .devcontainer/devcontainer.env
 
-# macOS
-.DS_Store
-
 # MegaLinter reports
 megalinter-reports/
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
