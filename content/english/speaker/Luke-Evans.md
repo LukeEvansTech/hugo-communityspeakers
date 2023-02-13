@@ -2,19 +2,19 @@
 title: "Luke Evans"
 date: 2019-09-10T13:51:25+06:00
 draft: false
-description: "this is Luke's profile"
+description: "Luke Evans profile"
 bg_image : "images/bg/cta-bg.jpg"
 image : "images/teams/luke-evans.png"
 designation : "Solutions Architect"
-email : "Martin@mail.com"
+email : "luke.evans@codelooks.com"
 type : "speaker"
 social:
   # social site loop
   - icon : "tf-ion-social-github"
-    link : "#"
+    link : "https://github.com/LukeEvansTech"
   # social site loop
   - icon : "tf-ion-social-twitter"
-    link : "#"
+    link : "https://twitter.com/LukeEvansTech"
   # social site loop
   - icon : "tf-ion-social-linkedin"
     link : "https://www.linkedin.com/in/LukeEvansTech"
@@ -37,4 +37,8 @@ skill:
     content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi hendrerit elit turpis, a porttitor tellus sollicitudin at."
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Luke Evans is a solutions architect currently working at codelooks. Luke is an experienced senior solutiions architect with over 16 years of experience within private and public sectors. Luke has extensive experience in architecture and full end-to-end delivery of cloud digital transformation programmes.
+
+In the past 7 years, Luke has immersed himself Microsoft 365 and Azure and the technologies that underpin and support them with a strong focus on security and identity.
+
+Luke is a Microsoft MVP in M365 Apps and Services.
