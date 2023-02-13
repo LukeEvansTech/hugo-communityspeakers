@@ -22,8 +22,8 @@ social:
 # professional skill
 skill:
   # skill loop
-  - title : "Course Correction"
-    icon : "tf-ion-android-document"
+  - title : "Scottish Summit Organising Commiteee"
+    icon : "tf-ion-archive"
     content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi hendrerit elit turpis, a porttitor tellus sollicitudin at."
     
   # skill loop
