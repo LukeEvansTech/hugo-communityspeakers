@@ -10,14 +10,14 @@ email : "Martin@mail.com"
 type : "speaker"
 social:
   # social site loop
-  - icon : "tf-ion-social-facebook"
+  - icon : "tf-ion-social-github"
     link : "#"
   # social site loop
   - icon : "tf-ion-social-twitter"
     link : "#"
   # social site loop
   - icon : "tf-ion-social-linkedin"
-    link : "#"
+    link : "https://www.linkedin.com/in/LukeEvansTech"
 
 # professional skill
 skill:
