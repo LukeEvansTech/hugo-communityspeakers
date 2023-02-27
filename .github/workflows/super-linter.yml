@@ -10,11 +10,11 @@ name: Lint Code Base
 # Start the job on all push #
 #############################
 on:
-  push:
-    # branches-ignore: [master, main]
-    # Remove the line above to run when pushing to master
+  # Trigger mega-linter at every push. Action will also be visible from Pull Requests to main
+  push: # Comment this line to trigger action only on pull-requests (not recommended if you don't pay for GH Actions)
   pull_request:
-    # branches: main
+    # branches: [main]
+
 
 ###############
 # Set the Job #
