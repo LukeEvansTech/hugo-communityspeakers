@@ -1,7 +1,7 @@
 ######################## default configuration ####################
 baseURL = "https://lukeevanstech.github.io/hugo-communityspeakers/"
-title = "Microsoft Tech Community Speakers"
 theme = "vixcon-hugo"
+title = "Microsoft Tech Community Speakers"
 # post pagination
 paginate = "4"
 # post excerpt
@@ -16,7 +16,7 @@ disableLanguages = ["fr"] # disable language from here
 home = ["HTML", "RSS", "JSON"]
 
 [markup.goldmark.renderer]
-unsafe= true
+unsafe = true
 
 ############################# Plugins ##############################
 # CSS Plugins
@@ -43,54 +43,54 @@ link = "plugins/google-map/map.js"
 
 ############################## navigation ###############################
 [menu]
-    
-  [[menu.main]]
-  name = "About"
-  URL = "about"
-  weight = 2
-  
-  [[menu.main]]
-  name = "Speakers"
-  URL = "speaker"
-  weight = 3
 
-  [[menu.main]]
-  weight = 4
-  name = "Pages"
-  hasChildren = true
+[[menu.main]]
 
-    [[menu.main]]
-    parent = "Pages"
-    name = "Tickets"
-    URL = "pricing"
+URL = "about"
+name = "About"
+weight = 2
+[[menu.main]]
+URL = "speaker"
+name = "Speakers"
+weight = 3
 
-    [[menu.main]]
-    parent = "Pages"
-    name = "Blog"
-    URL = "blog"
+[[menu.main]]
+hasChildren = true
+name = "Pages"
+weight = 4
 
-    [[menu.main]]
-    parent = "Pages"
-    name = "Schedule"
-    URL = "schedule"
+[[menu.main]]
+URL = "pricing"
+name = "Tickets"
+parent = "Pages"
 
-    [[menu.main]]
-    parent = "Pages"
-    name = "FAQ"
-    URL = "faq"
-    
-  [[menu.main]]
-  name = "Contact"
-  URL = "contact"
-  weight = 5
+[[menu.main]]
+URL = "blog"
+name = "Blog"
+parent = "Pages"
+
+[[menu.main]]
+URL = "schedule"
+name = "Schedule"
+parent = "Pages"
+
+[[menu.main]]
+
+URL = "faq"
+name = "FAQ"
+parent = "Pages"
+[[menu.main]]
+URL = "contact"
+name = "Contact"
+weight = 5
 
 #################### default parameters ################################
 [params]
-logo = "images/logo.png"
 home = "Home"
+logo = "images/logo.png"
 # Meta data
-description = "This is meta description"
 author = "Themefisher"
+description = "This is meta description"
 # email address
 email = "demo@vixcon.com"
 # contact form action
@@ -102,7 +102,7 @@ search = true
 
 # Preloader
 [params.preloader]
-enable = true
+enable = true 
 preloader = "" # use jpg, png, svg or gif format.
 
 # Navigation button
@@ -110,7 +110,6 @@ preloader = "" # use jpg, png, svg or gif format.
 enable = true
 label = "Get Ticket"
 link = "pricing"
-
 
 # Subscription
 [params.subscription]
@@ -148,27 +147,25 @@ link = "#"
 icon = "tf-ion-social-rss"
 link = "#"
 
-
 ################################### English language #####################################
 [Languages.en]
-languageName = "En"
-languageCode = "en-us"
 contentDir = "content/english"
-weight = 1
 home = "Home"
+languageCode = "en-us"
+languageName = "En"
+weight = 1
 # footer content
 footer_content = "We are a creative-led experiential Event Production Agency that helps brands connect, engage and evolve."
 # copyright
 copyright = "Copyright &copy; 2023 Microsoft Community Speakers"
 
-
 ################################### French language #####################################
 [Languages.fr]
-languageName = "Fr"
-languageCode = "fr-fr"
 contentDir = "content/french"
-weight = 2
 home = "Accueil"
+languageCode = "fr-fr"
+languageName = "Fr"
+weight = 2
 # footer content
 footer_content = "We are a creative-led experiential Event Production Agency that helps brands connect, engage and evolve."
 # copyright
