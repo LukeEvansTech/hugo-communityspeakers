@@ -6,6 +6,6 @@ description: "this is meta description"
 bg_image : "images/bg/cta-bg.jpg"
 ---
 
-## Who're speaking
+## Who is speaking
 
 Accusantium provident suscipit dicta magni dolor deserunt nam obcaecati non veritatis optio.

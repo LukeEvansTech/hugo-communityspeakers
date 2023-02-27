@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://lukeevanstech.github.io/hugo-communityspeakers/"
+baseURL = "https://communityspeakers.tech"
 title = "Microsoft Tech Community Speakers"
 theme = "vixcon-hugo"
 # post pagination
@@ -89,10 +89,10 @@ link = "plugins/google-map/map.js"
 logo = "images/logo.png"
 home = "Home"
 # Meta data
-description = "This is meta description"
-author = "Themefisher"
+description = "Microsoft Community Speakers"
+author = "Luke Evans"
 # email address
-email = "demo@vixcon.com"
+email = "luke@codelooks.com"
 # contact form action
 contact_form_action = "#" # contact form works with https://formspree.io
 # Google Analitycs
