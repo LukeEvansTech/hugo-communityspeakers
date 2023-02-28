@@ -29,7 +29,7 @@ pricing:
     # pricing table loop
     - title : "Gift a ticket"
       style : "2"
-      price : "250$"
+      price : "£15"
       icon : "tf-ion-android-hangout"
       bg_image : "images/bg/page-header.jpg"
       services:
