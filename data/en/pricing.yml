@@ -8,7 +8,7 @@ timer:
 ################################# Pricing ##########################
 pricing:
   enable : true
-  title_outline : "Get your ticket"
+  title_outline : "Tickets"
   title : "Register Now"
   content : "Reserve your ticket now for the bargain price of £15, which will include food and drink throughout the day"
   pricing_table:
