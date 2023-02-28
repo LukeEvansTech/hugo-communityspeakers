@@ -24,7 +24,7 @@ pricing:
         - "Expert guidance"
       button:
         label : "Get now"
-        link : "#"
+        link : "https://www.eventbrite.com/e/microsoft-new-speakers-community-day-tickets-564684756307"
         
     # # pricing table loop
     # - title : "Team"
