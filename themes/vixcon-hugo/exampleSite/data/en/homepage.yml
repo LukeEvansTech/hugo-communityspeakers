@@ -83,7 +83,7 @@ speaker:
 
 ######################### sponsor ############################
 sponsor:
-  enable :  true
+  enable :  false
   title_outline : "Sponsors"
   title : "Amazing Partners & Sponsors"
   sponsor_group:

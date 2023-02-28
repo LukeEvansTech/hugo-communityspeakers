@@ -8,20 +8,20 @@ timer:
 ################################# Pricing ##########################
 pricing:
   enable : true
-  title_outline : "Price"
-  title : "Get your Ticket"
-  content : "Accusantium provident suscipit dicta magni dolor deserunt nam obcaecati non veritatis optio."
+  title_outline : "Get your ticket"
+  title : "Register Now"
+  content : "Reserve your ticket now for the bargain price of £15, which will include food and drink throughout the day"
   pricing_table:
     # pricing table loop
-    - title : "Early"
+    - title : "Tickets"
       style : "1"
-      price : "70$"
+      price : "£15"
       icon : "tf-ion-android-bulb"
       bg_image : "images/bg/page-header.jpg"
       services:
-        - "Two Days Ticket"
-        - "Coffee & Launch"
-        - "Networking"
+        - "One day workshop"
+        - "Lunch, drinks & snacks"
+        - "Expert guidance"
       button:
         label : "Get now"
         link : "#"
