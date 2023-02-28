@@ -8,4 +8,4 @@ bg_image : "images/bg/cta-bg.jpg"
 
 ## Who is speaking
 
-Accusantium provident suscipit dicta magni dolor deserunt nam obcaecati non veritatis optio.
+A fantastic line up of established community speakers.
