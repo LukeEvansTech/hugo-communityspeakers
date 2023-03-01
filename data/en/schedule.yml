@@ -1,23 +1,22 @@
 schedule:
   enable : true
   title_outline : "schedule"
-  title : "Topic Discussion"
-  content : "Accusantium provident suscipit dicta magni dolor deserunt nam obcaecati non veritatis option."
+  title : "Agenda for the Day"
+  content : "This full day structured workshop will give you everything you need to know to get started."
   schedule_tab:
-    ################# tab itam loop ################
+    ################# tab item loop ################
     - title : "Day 1"
-      date_time : "13 Nov ,2019 [09.00am - 04.00pm]"
+      date_time : "20th of May 2023"
       schedule_items:
         # schedule loop item
-        - time : "9.00am"
+        - time : "08:45"
           image : "images/about/wordpress.png"
           content : "
           
-          ### Introduction of material Design
+          ### Registration
+          
+          Get registered for the day
 
-          ###### By Risabh moinul
-
-          Founder of themefisher
           "
           
         # schedule loop item
@@ -25,11 +24,7 @@ schedule:
           image : "images/about/big-data.png"
           content : "
           
-          ### Marketing Matters in design area
-
-          ###### By Risabh moinul
-
-          Founder of themefisher
+          ### Welcome
           "
           
         # schedule loop item

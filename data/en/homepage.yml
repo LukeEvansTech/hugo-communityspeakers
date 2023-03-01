@@ -23,13 +23,13 @@ timer:
 event:
   enable : true
   title_outline : "event"
-  title : "The New Era of Tech Companies"
+  title : "Helping develop the next generation of new speakers for Microsoft community events "
   image_back : "images/about/h1-gallery-img-7.jpg"
   image_front : "images/about/main-home-img-1.jpg"
-  content : "Lorem ipsum proin gravida nibh vel velit auctor aliquet. Aeneansollicitudin, lorem quis bibendum
-              auctonisi elit consequat ipsum nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursusa sit nibh vel velit."
+  content : "Many people attend events and look at those on stage wondering how to get there, or who are interested in speaking but don't know how to get started - or whether they even have something valuable to share! We firmly believe that everyone has a story - everyone has a different perspective, different experiences, different learnings, and can contribute their own story in a way that will be valuable to someone out there.  
+    This workshop is for you if you are just getting started on your speaker journey and looking to polish your skills, or not yet a speaker and looking to get into speaking at events, but don't know how to get started. We will break down some of the mystery about speaking at tech events in a way that will help you get started on this journey. This workshop will be facilitated by professional presenters, and with guest appearances from some of the greats."
   button:
-    enable : true
+    enable : false
     label : "Discover More"
     link : "service"
 

@@ -1,6 +1,7 @@
 ######################## default configuration ####################
 baseURL = "https://communityspeakers.tech"
 theme = "vixcon-hugo"
+googleAnalytics = "G-T5GZJE9R4K"
 title = "Microsoft Tech Community Speakers"
 # post pagination
 paginate = "4"
@@ -96,7 +97,7 @@ email = "luke@codelooks.com"
 # contact form action
 contact_form_action = "#" # contact form works with https://formspree.io
 # Google Analitycs
-google_analitycs_id = "G-T5GZJE9R4K" # your id
+# google_analitycs_id = "G-T5GZJE9R4K" # your id
 # search for blog page
 search = true
 
