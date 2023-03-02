@@ -10,35 +10,35 @@ pricing:
   enable : true
   title_outline : "Tickets"
   title : "Register Now"
-  content : "Reserve your ticket now for the bargain price of £15, which will include food and drink throughout the day"
+  content : "Reserve your ticket now for the bargain price of £15, which will include food and drink throughout the day."
   pricing_table:
     # pricing table loop
-    - title : "Tickets"
+    - title : "Attend Workshop"
       style : "1"
       price : "£15"
       icon : "tf-ion-android-bulb"
       bg_image : "images/bg/page-header.jpg"
       services:
         - "One day workshop"
-        - "Lunch, drinks & snacks"
+        - "Practical skills"
         - "Expert guidance"
       button:
         label : "Get now"
         link : "https://www.eventbrite.com/e/microsoft-new-speakers-community-day-tickets-564684756307"
         
     # pricing table loop
-    - title : "Gift a ticket"
+    - title : "Gift a seat"
       style : "2"
       price : "£15"
       icon : "tf-ion-android-hangout"
       bg_image : "images/bg/page-header.jpg"
       services:
+        - "Gift voucher for one seat"
+        - "Donate to named individual"
         - "One day workshop"
-        - "Lunch, drinks & snacks"
-        - "Expert guidance"
       button:
         label : "Gift now"
-        link : "https://www.eventbrite.com/e/microsoft-new-speakers-community-day-tickets-564684756307"
+        link : "https://giftup.app/place-order/15a7e021-0dba-4b20-0da8-08db1984a8f4?platform=hosted"
         
     # # pricing table loop
     # - title : "Economic"
