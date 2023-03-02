@@ -3,7 +3,7 @@ banner:
   enable : true
   title : "Microsoft Community Speakers"
   bg_image: "images/banner/banner-2.jpg"
-  date_time : "May 20th, at 09:00am"
+  date_time : "May 20th, at 09:00"
   button:
     enable : "Discover more"
     label : "Discover more"
