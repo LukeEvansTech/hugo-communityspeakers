@@ -66,8 +66,8 @@ name = "Tickets"
 parent = "Pages"
 
 [[menu.main]]
-URL = "blog"
-name = "Blog"
+URL = "sponsor"
+name = "Sponsors"
 parent = "Pages"
 
 [[menu.main]]

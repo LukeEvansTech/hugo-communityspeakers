@@ -85,7 +85,7 @@ speaker:
 sponsor:
   enable :  true
   title_outline : "Sponsors"
-  title : "Amazing Partners & Sponsors"
+  title : "Sponsorship avaialble"
   # sponsor_group:
   #   ############################ sponsor group loop
   #   - title : "Amazing Partners & Sponsors"
