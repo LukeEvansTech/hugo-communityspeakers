@@ -95,7 +95,7 @@ weight = 5
 #################### default parameters ################################
 [params]
 home = "Home"
-logo = "images/logo.jpeg"
+logo = "images/logo.png"
 # Meta data
 author = "Luke Evans"
 description = "Microsoft Community Speakers"
