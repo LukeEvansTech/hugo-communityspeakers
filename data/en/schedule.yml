@@ -10,47 +10,111 @@ schedule:
       schedule_items:
         # schedule loop item
         - time : "08:45"
-          image : "images/about/wordpress.png"
+          image : ""
           content : "
           
           ### Registration
           
-          Get registered for the day
-
           "
           
         # schedule loop item
-        - time : "9.00am"
-          image : "images/about/big-data.png"
+        - time : "09:00"
+          image : ""
           content : "
           
           ### Welcome
           "
-          
         # schedule loop item
-        - time : "9.00am"
-          image : "images/about/lunch.jpg"
+        - time : "09:15"
+          image : ""
           content : "
           
-          ### Launch Break
-
-          ###### By Risabh moinul
-
-          Founder of themefisher
-          "
+          ### Getting a profile
           
+          A personal brand  <br>
+          Accounts and speaker profiles  <br>
+          Finding events to submit to  <br>
+          The mechanics of submitting to speaker <br>
+          "  
         # schedule loop item
-        - time : "2.00pm"
-          image : "images/about/creativity.jpg"
+        - time : "10:30"
+          image : ""
           content : "
           
-          ### Cultures of Creativity
-
-          ###### By Risabh moinul
-
-          Founder of themefisher
-          "
+          ### Break
+ 
+          "  
+        # schedule loop item
+        - time : "10:45"
+          image : ""
+          content : "
           
+          ### Session submissions
+          
+          What the events want  <br>
+          Analyzing sessions  <br>
+          Writing abstracts  <br>
+          The hook - a catchy title? <br>
+          "  
+          
+        # schedule loop item
+        - time : "10:30"
+          image : ""
+          content : "
+          
+          ### Lunch
+ 
+          "  
+        # schedule loop item
+        - time : "13:15"
+          image : ""
+          content : "
+          
+          ### Presentation preparation and session content
+          
+          Mapping out a session plan  <br>
+          Slide design  <br>
+          Video or demo?  <br>
+          "  
+        # schedule loop item
+        - time : "14:45"
+          image : ""
+          content : "
+          
+          ### Break
+ 
+          "  
+        
+        # schedule loop item
+        - time : "15:00"
+          image : ""
+          content : "
+          
+          ###  Delivery Techniques
+          
+          Tips and tricks  <br>
+          Practical  <br>
+          "  
+
+          
+        # schedule loop item
+        - time : "16:15"
+          image : ""
+          content : "
+          
+          ### Next steps
+ 
+          "   
+
+        # schedule loop item
+        - time : "17:00"
+          image : ""
+          content : "
+          
+          ### Close
+ 
+          "   
+
     # ################# tab itam loop ################
     # - title : "Day 2"
     #   date_time : "14 Nov ,2019 [09.00am - 04.00pm]"
