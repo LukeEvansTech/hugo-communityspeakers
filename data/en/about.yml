@@ -2,8 +2,11 @@
 about:
   enable : true
   image : "images/bg/ctg.jpg"
-  title : "Inovation & **Inspiration** Connect People"
-  content : "The Event Company is an event design and production company that specializes in corporate and social events as well as non-profit fundraisers. We consider ourselves experts when it comes to event fundraising and public/media relations and offer consultation services to our clients to help make their event a sensational success."
+  title : "Inspiring & **Empowering** Connecting People"
+  content : "The Microsoft New Speakers community initiative was established in 2023 by Zoe Wilson, Sara Fennah and Luke Evans, with the goal of improving the pipeline of new speakers within the tech community. We're especially passionate about increasing diversity within the tech community, be it gender diversity, ethnicity, sexuality, neurodiversity, or providing opportunities to people from low-income or disadvantaged backgrounds. 
+            We're committed to working with Microsoft and local community outreach groups to target our event at under-represented groups. 
+            Our goal is to have a real social impact, helping people develop skills that can help with career progression, inspiring people to contribute to the tech community, and increasing the number of visible diverse role models within the tech industry. 
+            Our workshop is inclusive and open to all."
 ################## sponsor ###############################
 sponsor:
   enable : true

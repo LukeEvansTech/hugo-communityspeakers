@@ -155,7 +155,7 @@ sponsor:
     title : "Want to be a sponsor ?"
     #button
     label : "apply now"
-    link : "#"
+    link : "sponsor"
 
 ################################ venue ########################
 venue:

@@ -80,6 +80,13 @@ parent = "Pages"
 URL = "faq"
 name = "FAQ"
 parent = "Pages"
+
+[[menu.main]]
+
+URL = "https://sessionize.com/microsoft-new-speakers-community-day"
+name = "Call for content"
+parent = "Pages"
+
 [[menu.main]]
 URL = "contact"
 name = "Contact"
@@ -110,7 +117,7 @@ preloader = "" # use jpg, png, svg or gif format.
 [params.navigation_button]
 enable = true
 label = "Get Ticket"
-link = "pricing"
+link = "https://www.eventbrite.com/e/microsoft-new-speakers-community-day-tickets-564684756307"
 
 # Subscription
 [params.subscription]

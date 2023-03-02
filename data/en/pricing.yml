@@ -10,7 +10,9 @@ pricing:
   enable : true
   title_outline : "Tickets"
   title : "Register Now"
-  content : "Reserve your ticket now for the bargain price of £15, which will include food and drink throughout the day."
+  content : "Reserve your ticket now for the bargain price of £15, which will include food and drink throughout the day. <br>
+  <br>
+  If you'd like to attend but can't afford to pay the cost for the workshop, please contact us at contact@communityspeakers.tech - there is no judgement, we'd like this to be an inclusive event."
   pricing_table:
     # pricing table loop
     - title : "Attend Workshop"
@@ -61,5 +63,5 @@ pricing:
         
 ############################## Event ##############################
 event:
-  enable : true
+  enable : false
   # event content comes from "homepage.yml" file
