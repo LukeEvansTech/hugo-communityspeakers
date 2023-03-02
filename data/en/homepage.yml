@@ -5,7 +5,7 @@ banner:
   bg_image: "images/banner/banner-2.jpg"
   date_time : "May 20th, at 09:00"
   button:
-    enable : "Discover more"
+    enable : false
     label : "Discover more"
     link : "service"
 
@@ -49,19 +49,19 @@ feature:
   enable: true
   feature_item: 
     # feature item loop
-    - name : "Valuable Insight"
+    - name : "How to get started "
       icon : "tf-ion-android-microphone"
-      content : "Events Drinks and Dancing are hosting an After Party and YOU ARE INVITED!!"
+      content : "A structured workshop that breaks down the steps you need to follow, to get started with speaking at tech community events."
       
     # feature item loop
-    - name : "Global Audience"
+    - name : "Practical skills"
       icon : "tf-ion-android-globe"
-      content : "Starting a mentoring program might be the closest you'll ever get to making a business decision that has exclusively positive impact."
+      content : "Learn the practical skills that you need when it comes to writing your personal bio, session abstract, as well as public speaking skills."
       
     # feature item loop
     - name : "Great Community"
       icon : "tf-ion-android-share"
-      content : "Networking is the exchange of information and ideas among people with a common profession or special interest, usually in an informal social setting."
+      content : "Connect with peers who are at the same point of their journey, and build your community network."
 
 ####################### Schedule #############################
 schedule:
