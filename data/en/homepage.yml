@@ -2,7 +2,7 @@
 banner:
   enable : true
   title : "Microsoft Community Speakers"
-  bg_image: "images/banner/banner-2.jpg"
+  bg_image: "images/banner/speakers-banner-clean-light.jpeg"
   date_time : "May 20th, at 09:00"
   button:
     enable : false
@@ -85,7 +85,7 @@ speaker:
 sponsor:
   enable :  true
   title_outline : "Sponsors"
-  title : "Sponsorship avaialble"
+  title : "Sponsorship available"
   # sponsor_group:
   #   ############################ sponsor group loop
   #   - title : "Amazing Partners & Sponsors"

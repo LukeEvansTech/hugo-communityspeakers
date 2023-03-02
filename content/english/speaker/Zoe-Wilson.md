@@ -10,14 +10,14 @@ email : ""
 type : "speaker"
 social:
   # social site loop
-  - icon : "tf-ion-social-facebook"
-    link : "#"
+  - icon : "tf-globe"
+    link : "https://zoe-365.com/"
   # social site loop
   - icon : "tf-ion-social-twitter"
-    link : "#"
+    link : "https://twitter.com/sarafennah"
   # social site loop
   - icon : "tf-ion-social-linkedin"
-    link : "#"
+    link : "https://www.linkedin.com/in/sfennah"
 
 # professional skill
 skill:
@@ -37,4 +37,6 @@ skill:
     content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi hendrerit elit turpis, a porttitor tellus sollicitudin at."
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Zoe is the Europe Workplace Value Realisation Offering Lead and a Senior Director at Avanade, who are the leading global Microsoft Partner. She is an experienced public speaker, who has spoken at many events in the UK and internationally, both at virtual events and in-person, and is passionate about diversity and inclusion.
+Zoe brings together a customer-focused solution background with several years of technology leadership experience and over 15 years experience working with collaborative tools SharePoint and other Microsoft technologies. She is passionate about solving business problems in an innovative and exciting way, and although her primary tech focus has been SharePoint, Teams and Microsoft 365, she now has the pleasure of working across a much broader range of innovative technologies.
+Early in 2022, Zoe joined a group of other like-minded MVPs to form the Viva Explorers, who actively promote, evangelize and champion a modern employee / workplace experience under-pinned by tools such as Microsoft Viva.
