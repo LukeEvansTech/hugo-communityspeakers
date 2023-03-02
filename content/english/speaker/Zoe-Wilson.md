@@ -14,27 +14,27 @@ social:
     link : "https://zoe-365.com/"
   # social site loop
   - icon : "tf-ion-social-twitter"
-    link : "https://twitter.com/sarafennah"
+    link : "https://twitter.com/SharePoint_Zoe"
   # social site loop
   - icon : "tf-ion-social-linkedin"
     link : "https://www.linkedin.com/in/sfennah"
 
-# professional skill
-skill:
-  # skill loop
-  - title : "Course Correction"
-    icon : "tf-ion-android-document"
-    content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi hendrerit elit turpis, a porttitor tellus sollicitudin at."
+# # professional skill
+# skill:
+#   # skill loop
+#   - title : "Course Correction"
+#     icon : "tf-ion-android-document"
+#     content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi hendrerit elit turpis, a porttitor tellus sollicitudin at."
     
-  # skill loop
-  - title : "Execute the Decision"
-    icon : "tf-ion-android-desktop"
-    content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi hendrerit elit turpis, a porttitor tellus sollicitudin at."
+#   # skill loop
+#   - title : "Execute the Decision"
+#     icon : "tf-ion-android-desktop"
+#     content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi hendrerit elit turpis, a porttitor tellus sollicitudin at."
     
-  # skill loop
-  - title : "Planning the Moves"
-    icon : "tf-ion-android-bulb"
-    content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi hendrerit elit turpis, a porttitor tellus sollicitudin at."
+#   # skill loop
+#   - title : "Planning the Moves"
+#     icon : "tf-ion-android-bulb"
+#     content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi hendrerit elit turpis, a porttitor tellus sollicitudin at."
 ---
 
 Zoe is the Europe Workplace Value Realisation Offering Lead and a Senior Director at Avanade, who are the leading global Microsoft Partner. She is an experienced public speaker, who has spoken at many events in the UK and internationally, both at virtual events and in-person, and is passionate about diversity and inclusion.

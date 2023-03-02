@@ -19,22 +19,22 @@ social:
   - icon : "tf-ion-social-linkedin"
     link : "https://www.linkedin.com/in/LukeEvansTech"
 
-# professional skill
-skill:
-  # skill loop
-  - title : "Scottish Summit Organising Commiteee"
-    icon : "tf-ion-archive"
-    content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi hendrerit elit turpis, a porttitor tellus sollicitudin at."
+# # professional skill
+# skill:
+#   # skill loop
+#   - title : "Scottish Summit Organising Commiteee"
+#     icon : "tf-ion-archive"
+#     content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi hendrerit elit turpis, a porttitor tellus sollicitudin at."
     
-  # skill loop
-  - title : "Execute the Decision"
-    icon : "tf-ion-android-desktop"
-    content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi hendrerit elit turpis, a porttitor tellus sollicitudin at."
+#   # skill loop
+#   - title : "Execute the Decision"
+#     icon : "tf-ion-android-desktop"
+#     content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi hendrerit elit turpis, a porttitor tellus sollicitudin at."
     
-  # skill loop
-  - title : "Planning the Moves"
-    icon : "tf-ion-android-bulb"
-    content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi hendrerit elit turpis, a porttitor tellus sollicitudin at."
+#   # skill loop
+#   - title : "Planning the Moves"
+#     icon : "tf-ion-android-bulb"
+#     content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi hendrerit elit turpis, a porttitor tellus sollicitudin at."
 ---
 
 Luke Evans is a solutions architect currently working at codelooks. Luke is an experienced senior solutiions architect with over 16 years of experience within private and public sectors. Luke has extensive experience in architecture and full end-to-end delivery of cloud digital transformation programmes.
