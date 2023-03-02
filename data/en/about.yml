@@ -12,7 +12,7 @@ sponsor:
 
 ################## Feature ##############################
 feature:
-  enable : true
+  enable : false
   subtitle : "10% Sale offer for early birds"
   title : "Meet top **digital masters** & influencers in a unique **3-days** experience."
   button:
