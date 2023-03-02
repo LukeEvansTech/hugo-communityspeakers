@@ -59,7 +59,7 @@ feature:
       content : "Learn the practical skills that you need when it comes to writing your personal bio, session abstract, as well as public speaking skills."
       
     # feature item loop
-    - name : "Great Community"
+    - name : "Great community"
       icon : "tf-ion-android-share"
       content : "Connect with peers who are at the same point of their journey, and build your community network."
 

@@ -6,7 +6,7 @@ schedule:
   schedule_tab:
     ################# tab item loop ################
     - title : "Day 1"
-      date_time : "20th of May 2023"
+      date_time : "Saturday 20th of May 2023 09:00 to 17:00"
       schedule_items:
         # schedule loop item
         - time : "08:45"
