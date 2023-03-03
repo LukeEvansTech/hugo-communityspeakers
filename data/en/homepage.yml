@@ -3,7 +3,7 @@ banner:
   enable : true
   title : "Microsoft Community Speakers"
   bg_image: "images/banner/speakers-banner-clean-light.jpeg"
-  date_time : "May 20th, at 09:00"
+  date_time : "Hosted by passionate members of the Microsoft tech community"
   button:
     enable : false
     label : "Discover more"
@@ -12,7 +12,7 @@ banner:
 ########################## timer #################################
 timer:
   enable : true
-  title : "**Count the day** <br> until the workshop"
+  title : "**Count the days** <br> until the workshop"
   # set timer
   year: "2023"
   month: "05"
