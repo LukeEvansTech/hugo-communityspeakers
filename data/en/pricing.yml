@@ -1,7 +1,7 @@
 ################################# timer ############################
 timer:
   enable : true
-  title : "**Count the day** <br>until conference start"
+  title : "**Count the days** <br>until conference start"
   content : "Our intensive 2-day business conferences will teach you the specific steps and proven systems you need to implement and grow your business. We hope you’ll join us!"
   # timer value comes from "homepage.yml" file
 
