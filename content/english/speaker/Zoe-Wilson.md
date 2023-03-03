@@ -17,7 +17,7 @@ social:
     link : "https://twitter.com/SharePoint_Zoe"
   # social site loop
   - icon : "tf-ion-social-linkedin"
-    link : "https://www.linkedin.com/in/sfennah"
+    link : "https://www.linkedin.com/in/zoe-wilson-uk"
 
 # professional skill
 skill:
