@@ -87,10 +87,10 @@ URL = "https://sessionize.com/microsoft-new-speakers-community-day"
 name = "Call for content"
 parent = "Pages"
 
-[[menu.main]]
-URL = "contact"
-name = "Contact"
-weight = 5
+# [[menu.main]]
+# URL = "contact"
+# name = "Contact"
+# weight = 5
 
 #################### default parameters ################################
 [params]
@@ -136,8 +136,8 @@ map_marker = "images/marker.png"
 
 ############################# social icon ############################
 [[params.social]]
-icon = "ion-ios-email-outline"
-link = "contact@communityspeakers.tech"
+icon = "tf-ion-email"
+link = "mailto:contact@communityspeakers.tech"
 
 [[params.social]]
 icon = "tf-ion-social-twitter"
