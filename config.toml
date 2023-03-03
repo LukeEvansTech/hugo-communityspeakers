@@ -100,17 +100,17 @@ logo = "images/logo.png"
 author = "Luke Evans"
 description = "Microsoft Community Speakers"
 # email address
-email = "luke@codelooks.com"
+# email = "luke@codelooks.com"
 # contact form action
 contact_form_action = "#" # contact form works with https://formspree.io
 # Google Analitycs
 # google_analitycs_id = "G-T5GZJE9R4K" # your id
 # search for blog page
-search = true
+search = false
 
 # Preloader
 [params.preloader]
-enable = true 
+enable = true
 preloader = "" # use jpg, png, svg or gif format.
 
 # Navigation button
@@ -141,15 +141,15 @@ map_marker = "images/marker.png"
 
 [[params.social]]
 icon = "tf-ion-social-twitter"
-link = "#"
+link = "https://twitter.com/newtcspeakers"
 
 [[params.social]]
 icon = "tf-ion-social-linkedin"
-link = "#"
+link = "https://www.linkedin.com/company/community-speakers"
 
-# [[params.social]]
-# icon = "tf-ion-social-pinterest"
-# link = "#"
+[[params.social]]
+icon = "tf-ion-social-youtube"
+link = "https://www.youtube.com/channel/UCrFZ8vz8U3IZ-CEdSSnDTsQ"
 
 # [[params.social]]
 # icon = "tf-ion-social-rss"
@@ -163,6 +163,6 @@ languageCode = "en-us"
 languageName = "En"
 weight = 1
 # footer content
-footer_content = "Helping develop the next generation of new speakers for community events."
+footer_content = "Helping develop the next generation of new speakers for community events, hosted by passionate members of the tech community."
 # copyright
 copyright = "Copyright &copy; 2023 Microsoft Community Speakers"

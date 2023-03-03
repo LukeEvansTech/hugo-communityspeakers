@@ -5,5 +5,3 @@ draft: false
 description: "this is meta description"
 bg_image : "images/bg/cta-bg.jpg"
 ---
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, natus.
