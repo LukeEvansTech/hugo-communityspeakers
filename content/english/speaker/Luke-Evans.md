@@ -39,6 +39,6 @@ skill:
 
 Luke Evans is a solutions architect currently working at codelooks. Luke is an experienced senior solutiions architect with over 16 years of experience within private and public sectors. Luke has extensive experience in architecture and full end-to-end delivery of cloud digital transformation programmes.
 
-In the past 7 years, Luke has immersed himself Microsoft 365 and Azure and the technologies that underpin and support them with a strong focus on security and identity.
+In the past 8 years, Luke has immersed himself Microsoft 365 and Azure and the technologies that underpin and support them with a strong focus on security and identity.
 
 Luke is a Microsoft MVP in M365 Apps and Services.
