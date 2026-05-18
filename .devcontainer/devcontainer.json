@@ -42,7 +42,7 @@
 	"remoteUser": "node",
 	"features": {
 		"ghcr.io/devcontainers/features/node:1": {},
-		"ghcr.io/devcontainers/features/docker-in-docker:2": {},
+		"ghcr.io/devcontainers/features/docker-in-docker:3": {},
 		"ghcr.io/devcontainers-contrib/features/npm-package:1": {
 			"package": "mega-linter-runner"
 		}
