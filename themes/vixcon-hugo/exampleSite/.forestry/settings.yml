@@ -167,7 +167,7 @@ build:
   - HUGO_ENV=staging
   - HUGO_VERSION=0.58.2
   preview_output_directory: public
-  preview_docker_image: forestryio/hugo:latest
+  preview_docker_image: forestryio/hugo:latest@sha256:50ae00ca1bf4f84c10740b048fb7632aad64a46a8cfd1a2114319a184a125e14
   mount_path: "/srv"
   working_dir: "/srv"
   instant_preview_command: hugo server -D -E -F --port 8080 --bind 0.0.0.0 --renderToDisk
