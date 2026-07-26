@@ -52,3 +52,18 @@ jobs:
           VALIDATE_ALL_CODEBASE: false
           DEFAULT_BRANCH: main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Two exclusions, both third-party/spec-mandated content we do not author:
+          #
+          # themes/ — the vendored vixcon-hugo theme. Upstream ships CRLF line
+          #   endings, which yamllint reports as a hard error ("wrong new line
+          #   character") in exampleSite/.forestry/settings.yml, plus a long tail of
+          #   indentation warnings. Reformatting a vendored theme would be
+          #   overwritten on the next theme update; it is not our code to style.
+          #   This mirrors the house default of skipping vendored/generated dirs.
+          #
+          # .devcontainer/devcontainer.json — JSONC, not JSON. The spec allows //
+          #   comments and the devcontainers templates ship them, but super-linter's
+          #   JSON validator parses strict JSON and fails "Parsing error: Unexpected
+          #   comment". Every devcontainer feature bump edits only this file, so
+          #   PRs #48 and #63 could never go green.
+          FILTER_REGEX_EXCLUDE: (^|/)themes/|(^|/)\.devcontainer/devcontainer\.json$
