@@ -9,11 +9,11 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+# Top-level default is read-only. The Pages write scopes live on the deploy job
+# below, which is the only job that needs them (zizmor excessive-permissions,
+# CKV2_GHA_1).
 permissions:
   contents: read
-  pages: write
-  id-token: write
 
 # Allow one concurrent deployment
 concurrency:
@@ -68,6 +68,10 @@ jobs:
 
   # Deployment job
   deploy:
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
