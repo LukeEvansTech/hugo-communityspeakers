@@ -16,3 +16,17 @@ jobs:
       statuses: write
       pull-requests: write
     uses: LukeEvansTech/shared-workflows/.github/workflows/super-linter.yml@3454940093a684ceb6be3b42cac3a0d219ae78cb # v1
+    with:
+      # themes/ is a vendored copy of the upstream vixcon-hugo theme, including
+      # its exampleSite and .forestry config. It is third-party code: the only
+      # commits touching it are Renovate dependency pins. Linting it produced
+      # almost every finding in this repo (968 of the htmlhint hits alone) and
+      # none of them are ours to fix.
+      #
+      # It also blocks Renovate outright. super-linter lints CHANGED files, so a
+      # pre-existing finding inside a directory Renovate routinely edits fails
+      # every bot PR while a PR touching anything else stays green.
+      #
+      # The rest of this regex is the shared default, restated because `with:`
+      # replaces it rather than appending.
+      filter-regex-exclude: '(^|/)(vendor|node_modules|\.terraform|\.venv|dist|build|collections)/|(^|/)docs/superpowers/|(^|/)themes/'

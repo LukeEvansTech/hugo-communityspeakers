@@ -3,11 +3,12 @@ title: "Sponsors"
 date: 2019-09-10T13:51:25+06:00
 draft: false
 description: "this is meta description"
-bg_image : "images/bg/cta-bg.jpg"
+bg_image: "images/bg/cta-bg.jpg"
 layout: sponsors
 ---
 
 ## Sponorship opportunity
+
 <br>
 
 The Microsoft New Speakers Community Day is being run as a not-for-profit event. We are charging a nominal fee to encourage low drop-out rates and cover some of the associated costs, however we're looking for sponsors to help cover remaining costs for the event, and to ensure we can deliver a great experience for attendees.

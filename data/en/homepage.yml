@@ -1,18 +1,18 @@
 ############################# banner ################################
 banner:
-  enable : true
-  title : "Microsoft Community Speakers"
+  enable: true
+  title: "Microsoft Community Speakers"
   bg_image: "images/banner/speakers-banner-clean-light.jpeg"
-  date_time : "Hosted by passionate members of the Microsoft tech community"
+  date_time: "Hosted by passionate members of the Microsoft tech community"
   button:
-    enable : false
-    label : "Discover more"
-    link : "service"
+    enable: false
+    label: "Discover more"
+    link: "service"
 
 ########################## timer #################################
 timer:
-  enable : true
-  title : "**Count the days** <br> until the workshop"
+  enable: true
+  title: "**Count the days** <br> until the workshop"
   # set timer
   year: "2023"
   month: "05"
@@ -21,71 +21,72 @@ timer:
 
 ############################## Event ##############################
 event:
-  enable : true
-  title_outline : "event"
-  title : "Helping develop the next generation of new speakers for Microsoft community events "
-  image_back : "images/about/h1-gallery-img-7.jpg"
-  image_front : "images/about/main-home-img-1.jpg"
-  content : "Many people attend events and look at those on stage wondering how to get there, or who are interested in speaking but don't know how to get started - or whether they even have something valuable to share! We firmly believe that everyone has a story - everyone has a different perspective, different experiences, different learnings, and can contribute their own story in a way that will be valuable to someone out there.  
+  enable: true
+  title_outline: "event"
+  title: "Helping develop the next generation of new speakers for Microsoft community events "
+  image_back: "images/about/h1-gallery-img-7.jpg"
+  image_front: "images/about/main-home-img-1.jpg"
+  content:
+    "Many people attend events and look at those on stage wondering how to get there, or who are interested in speaking but don't know how to get started - or whether they even have something valuable to share! We firmly believe that everyone has a story - everyone has a different perspective, different experiences, different learnings, and can contribute their own story in a way that will be valuable to someone out there.
     This workshop is for you if you are just getting started on your speaker journey and looking to polish your skills, or not yet a speaker and looking to get into speaking at events, but don't know how to get started. We will break down some of the mystery about speaking at tech events in a way that will help you get started on this journey. This workshop will be facilitated by professional presenters, and with guest appearances from some of the greats."
   button:
-    enable : false
-    label : "Discover More"
-    link : "service"
+    enable: false
+    label: "Discover More"
+    link: "service"
 
 ######################### Call to action #########################
 cta:
-  enable : false
-  subtitle : "10% Sale offer for early birds"
-  title : "Meet top **digital masters** <br> & influencers in a unique **3-days** experience."
-  image : "images/banner/rev-slider-09.png"
+  enable: false
+  subtitle: "10% Sale offer for early birds"
+  title: "Meet top **digital masters** <br> & influencers in a unique **3-days** experience."
+  image: "images/banner/rev-slider-09.png"
   button:
-    enable : true
-    label : "get ticket"
-    link : "pricing"
+    enable: true
+    label: "get ticket"
+    link: "pricing"
 
 ############################# Feature ###########################
 feature:
   enable: true
-  feature_item: 
+  feature_item:
     # feature item loop
-    - name : "How to get started "
-      icon : "tf-ion-android-microphone"
-      content : "A structured workshop that breaks down the steps you need to follow, to get started with speaking at tech community events."
-      
+    - name: "How to get started "
+      icon: "tf-ion-android-microphone"
+      content: "A structured workshop that breaks down the steps you need to follow, to get started with speaking at tech community events."
+
     # feature item loop
-    - name : "Practical skills"
-      icon : "tf-ion-android-globe"
-      content : "Learn the practical skills that you need when it comes to writing your personal bio, session abstract, as well as public speaking skills."
-      
+    - name: "Practical skills"
+      icon: "tf-ion-android-globe"
+      content: "Learn the practical skills that you need when it comes to writing your personal bio, session abstract, as well as public speaking skills."
+
     # feature item loop
-    - name : "Great community"
-      icon : "tf-ion-android-share"
-      content : "Connect with peers who are at the same point of their journey, and build your community network."
+    - name: "Great community"
+      icon: "tf-ion-android-share"
+      content: "Connect with peers who are at the same point of their journey, and build your community network."
 
 ####################### Schedule #############################
 schedule:
-  enable : true
+  enable: true
   # schedule data comes from "schedule.yml" file
 
 ####################### pricing #############################
 pricing:
-  enable : true
+  enable: true
   # pricing data comes from "pricing.yml" file
 
 ########################## speaker ##########################
 speaker:
-  enable : true
-  title_outline : "Speakers"
-  title : "Who is speaking"
-  content : "A fantastic line up of established community speakers"
+  enable: true
+  title_outline: "Speakers"
+  title: "Who is speaking"
+  content: "A fantastic line up of established community speakers"
   # speaker content comes from "content/speaker" folder
 
 ######################### sponsor ############################
 sponsor:
-  enable :  true
-  title_outline : "Sponsors"
-  title : "Sponsorship available"
+  enable: true
+  title_outline: "Sponsors"
+  title: "Sponsorship available"
   # sponsor_group:
   #   ############################ sponsor group loop
   #   - title : "Amazing Partners & Sponsors"
@@ -93,38 +94,38 @@ sponsor:
   #       # sponsor loop
   #       - logo : "images/clients/client-img-1.png"
   #         link : "https://examplesite.org"
-          
+
   #       # sponsor loop
   #       - logo : "images/clients/client-img-2.png"
   #         link : "#"
-          
+
   #       # sponsor loop
   #       - logo : "images/clients/client-img-3.png"
   #         link : "https://examplesite.org"
-          
+
   #       # sponsor loop
   #       - logo : "images/clients/client-img-4.png"
   #         link : "#"
-          
+
   #       # sponsor loop
   #       - logo : "images/clients/client-img-5.png"
   #         link : "https://examplesite.org"
-          
+
   #   ############################ sponsor group loop
   #   - title : "Platinum Sponsors"
   #     sponsor:
   #       # sponsor loop
   #       - logo : "images/clients/client-img-6.png"
   #         link : "https://examplesite.org"
-          
+
   #       # sponsor loop
   #       - logo : "images/clients/client-img-7.png"
   #         link : "#"
-          
+
   #       # sponsor loop
   #       - logo : "images/clients/client-img-8.png"
   #         link : "#"
-          
+
   #       # sponsor loop
   #       - logo : "images/clients/client-img-9.png"
   #         link : "https://examplesite.org"
@@ -132,47 +133,47 @@ sponsor:
   #       # sponsor loop
   #       - logo : "images/clients/client-img-1.png"
   #         link : "#"
-          
+
   #       # sponsor loop
   #       - logo : "images/clients/client-img-2.png"
   #         link : "#"
-          
+
   #       # sponsor loop
   #       - logo : "images/clients/client-img-3.png"
   #         link : "#"
-          
+
   #       # sponsor loop
   #       - logo : "images/clients/client-img-4.png"
   #         link : "https://examplesite.org"
-          
+
   #       # sponsor loop
   #       - logo : "images/clients/client-img-5.png"
   #         link : "#"
-  
+
   # call to action in sponsor
   sponsorship:
-    enable : true
-    title : "Want to be a sponsor ?"
+    enable: true
+    title: "Want to be a sponsor ?"
     #button
-    label : "apply now"
-    link : "https://forms.office.com/pages/responsepage.aspx?id=pkISNZbQ1USU6s12Gigaukkc-QRLPOBClsG7Er7AanVURFhRWVFROUlJWFJTV1Y4N1YxNFZCVlJURC4u"
+    label: "apply now"
+    link: "https://forms.office.com/pages/responsepage.aspx?id=pkISNZbQ1USU6s12Gigaukkc-QRLPOBClsG7Er7AanVURFhRWVFROUlJWFJTV1Y4N1YxNFZCVlJURC4u"
 
 ################################ venue ########################
 venue:
-  enable : true
-  title : "UA92 Campus"
-  image : "images/bg/ua92.jpeg"
-  date : "20th of May, 2023"
-  location : "Brian Statham Way, Old Trafford, Stretford, Manchester, M16 0PU"
-  button: 
-    enable : true
-    label : "View Map location"
-    link : "contact"
+  enable: true
+  title: "UA92 Campus"
+  image: "images/bg/ua92.jpeg"
+  date: "20th of May, 2023"
+  location: "Brian Statham Way, Old Trafford, Stretford, Manchester, M16 0PU"
+  button:
+    enable: true
+    label: "View Map location"
+    link: "contact"
 
 ############################### Blog ######################################
 blog:
-  enable : false
-  title_outline : "News"
-  title : "Latest News"
-  content : "Accusantium provident suscipit dicta magni dolor deserunt nam obcaecati non veritatis optio."
+  enable: false
+  title_outline: "News"
+  title: "Latest News"
+  content: "Accusantium provident suscipit dicta magni dolor deserunt nam obcaecati non veritatis optio."
   # blog content comes from "content/blog" folder
