@@ -1,0 +1,77 @@
+/* stylelint-disable selector-id-pattern -- #TopicTab is an id emitted by the
+   vendored vixcon-hugo theme's schedule layout, which is excluded from linting
+   and not ours to change. Renaming the selector here would just orphan it. */
+#TopicTab {
+  background: #eee;
+  border-radius: 5px;
+}
+
+.nav-justified .nav-item {
+  text-align: left !important;
+}
+
+.nav-pills .nav-link {
+  border-radius: 0;
+  padding: 20px 30px;
+  transition: all 0.45s ease;
+}
+
+.nav-pills .nav-link.active {
+  background: $primary-color;
+  border-radius: 8px;
+  position: relative;
+
+  h2 {
+    color: $white;
+  }
+
+  h5 {
+    color: $white;
+  }
+
+  &::before {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 17px 20px 0;
+    content: "";
+    position: absolute;
+    bottom: -18px;
+    transform: translateY(-50%);
+    transition: 0.3s;
+    left: 80px;
+    margin: auto;
+    z-index: -1;
+    border-color: $primary-color transparent transparent;
+  }
+}
+
+.time-table {
+  .time {
+    flex-basis: 20%;
+  }
+
+  .content {
+    flex-basis: 60%;
+  }
+
+  .content-img {
+    flex-basis: 20%;
+
+    img {
+      border-radius: 100%;
+
+      @media screen {
+        width: 100px;
+      }
+    }
+  }
+
+  li {
+    box-shadow: 0 15px 38px 0 rgb(0 0 0 / 10%);
+  }
+}
+
+.text-color-2 {
+  color: $secondary-color;
+}

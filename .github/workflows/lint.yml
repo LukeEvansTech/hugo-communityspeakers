@@ -15,4 +15,35 @@ jobs:
       contents: read
       statuses: write
       pull-requests: write
-    uses: LukeEvansTech/shared-workflows/.github/workflows/super-linter.yml@3454940093a684ceb6be3b42cac3a0d219ae78cb # v1
+    uses: LukeEvansTech/shared-workflows/.github/workflows/super-linter.yml@19d6cdb4b62130c4486ef05f2b9e44db95292b17 # v1
+    with:
+      # Graduated from soft-launch. A full-codebase pass (VALIDATE_ALL_CODEBASE
+      # =true, run locally with this repo's exact CI config) reports zero
+      # findings across every linter, so blocking costs nothing and keeps it
+      # that way.
+      soft-launch: false
+      # The upstream vixcon-hugo theme is vendored here in two forms, and
+      # neither is ours to maintain:
+      #
+      #   - 'themes/' — the theme itself, including its exampleSite and
+      #     .forestry config. The only commits touching it are Renovate pins.
+      #     Linting it produced almost every finding in this repo (968 of the
+      #     htmlhint hits alone).
+      #   - The theme's exampleSite DEMO CONTENT, copied to the repo root when
+      #     the site was scaffolded and never replaced: the placeholder authors
+      #     'john-doe' and 'tom-hunk', and the four Lorem ipsum blog posts
+      #     'post.1.md'..'post.4.md'. Their findings are markdownlint objecting
+      #     to the demo posts' heading levels and textlint reading Latin as
+      #     English ("...pretium id, auctor..." -> "use ID instead").
+      #
+      # NOTE: excluding the demo content stops it being LINTED; it does not
+      # stop it being PUBLISHED. Those six files still build into the live
+      # site. Deleting them is a content decision, not a lint one.
+      #
+      # This also matters for Renovate. super-linter lints CHANGED files, so a
+      # pre-existing finding in a directory Renovate routinely edits fails
+      # every bot PR while a PR touching anything else stays green.
+      #
+      # The rest of this regex is the shared default, restated because `with:`
+      # replaces it rather than appending.
+      filter-regex-exclude: '(^|/)(vendor|node_modules|\.terraform|\.venv|dist|build|collections)/|(^|/)docs/superpowers/|(^|/)themes/|(^|/)content/english/author/|(^|/)content/english/blog/post\.[0-9]+\.md$'

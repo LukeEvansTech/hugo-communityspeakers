@@ -103,7 +103,7 @@ description = "Microsoft Community Speakers"
 # email = "luke@codelooks.com"
 # contact form action
 contact_form_action = "https://airform.io/contact@communityspeakers.tech" # contact form works with https://formspree.io
-# Google Analitycs
+# Google Analytics
 # google_analitycs_id = "G-T5GZJE9R4K" # your id
 # search for blog page
 search = false
@@ -122,7 +122,7 @@ link = "https://www.eventbrite.com/e/microsoft-new-speakers-community-day-ticket
 # Subscription
 [params.subscription]
 enable = false
-# mailchimp subsciption
+# mailchimp subscription
 mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074" # replace this url with yours
 mailchimp_form_name = "" # replace this code with yours
 

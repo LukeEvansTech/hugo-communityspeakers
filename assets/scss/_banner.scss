@@ -10,7 +10,7 @@
     h1 {
       font-size: 100px;
       line-height: 1.2;
-      letter-spacing: -.04em;
+      letter-spacing: -0.04em;
 
       @include desktop {
         font-size: 80px;
@@ -31,7 +31,7 @@
 .banner-img {
   position: absolute;
   right: -160px;
-  top: 0px;
+  top: 0;
 }
 
 .divider {
@@ -40,7 +40,6 @@
   background: $primary-color;
   display: block;
 }
-
 
 @include mobile {
   .section-banner {

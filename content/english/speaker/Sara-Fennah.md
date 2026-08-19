@@ -3,38 +3,38 @@ title: "Sara Fennah"
 date: 2019-09-10T13:51:25+06:00
 draft: false
 description: "this is Sara's profile"
-bg_image : "images/bg/cta-bg.jpg"
-image : "images/teams/sara-fennah.jpg"
-designation : "Microsoft 365 Consultant/Trainer"
-email : "sara@m365mct.co.uk"
-type : "speaker"
+bg_image: "images/bg/cta-bg.jpg"
+image: "images/teams/sara-fennah.jpg"
+designation: "Microsoft 365 Consultant/Trainer"
+email: "sara@m365mct.co.uk"
+type: "speaker"
 social:
   # social site loop
-  - icon : "tf-globe"
-    link : "https://teamsqueen.com/"
+  - icon: "tf-globe"
+    link: "https://teamsqueen.com/"
   # social site loop
-  - icon : "tf-ion-social-twitter"
-    link : "https://twitter.com/sarafennah"
+  - icon: "tf-ion-social-twitter"
+    link: "https://twitter.com/sarafennah"
   # social site loop
-  - icon : "tf-ion-social-linkedin"
-    link : "https://www.linkedin.com/in/sfennah"
+  - icon: "tf-ion-social-linkedin"
+    link: "https://www.linkedin.com/in/sfennah"
 
 # professional skill
 skill:
   # skill loop
-  - title : "Course Correction"
-    icon : "tf-ion-android-document"
-    content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi hendrerit elit turpis, a porttitor tellus sollicitudin at."
-    
+  - title: "Course Correction"
+    icon: "tf-ion-android-document"
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi hendrerit elit turpis, a porttitor tellus sollicitudin at."
+
   # skill loop
-  - title : "Execute the Decision"
-    icon : "tf-ion-android-desktop"
-    content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi hendrerit elit turpis, a porttitor tellus sollicitudin at."
-    
+  - title: "Execute the Decision"
+    icon: "tf-ion-android-desktop"
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi hendrerit elit turpis, a porttitor tellus sollicitudin at."
+
   # skill loop
-  - title : "Planning the Moves"
-    icon : "tf-ion-android-bulb"
-    content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi hendrerit elit turpis, a porttitor tellus sollicitudin at."
+  - title: "Planning the Moves"
+    icon: "tf-ion-android-bulb"
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi hendrerit elit turpis, a porttitor tellus sollicitudin at."
 ---
 
 Sara has over 25 years’ experience, has been a Microsoft Certified Trainer (MCT) for over 15 years and is also a MCT Regional Lead and Microsoft MVP (Most Valuable Professional) for Microsoft 365 Apps and Services.

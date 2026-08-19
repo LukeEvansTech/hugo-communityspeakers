@@ -4,9 +4,9 @@ date: 2019-09-10T13:51:25+06:00
 draft: false
 description: "this is meta description"
 # page title backgrount image
-bg_image : "images/bg/cta-bg.jpg"
+bg_image: "images/bg/cta-bg.jpg"
 # post thumb
-image : "images/blog/blog-3.jpg"
+image: "images/blog/blog-3.jpg"
 # author
 author: "John Doe"
 # Taxonomies
@@ -30,7 +30,6 @@ and her mother. At first glance, the 31-year-old, with her Instagram following o
 the impression of being just another modest influencer, posing in brands like Dulce by Safiya, Culture
 Hijab, and Hayah Collection. Then you play one of her videos, and she starts rapping about everything
 from political and social injustices to women’s rights.
-
 
 > A shoe is not only a design, but it's a part of your body language, the way you walk. The way you're going to move is quite dictated by your shoes.
 

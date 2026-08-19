@@ -1,25 +1,25 @@
 ---
 title: "Tom Hunk"
-bg_image : "images/bg/cta-bg.jpg"
+bg_image: "images/bg/cta-bg.jpg"
 # portrait
 image: ""
 # email
 email: "email2@example.org"
 # meta description
-description : "this is meta description"
+description: "this is meta description"
 # social
 social:
-  - icon : "tf-ion-social-facebook"
-    link : "#"
-    
-  - icon : "tf-ion-social-twitter"
-    link : "#"
-    
-  - icon : "tf-ion-social-instagram"
-    link : "#"
-    
-  - icon : "tf-ion-social-dribbble"
-    link : "#"
+  - icon: "tf-ion-social-facebook"
+    link: "#"
+
+  - icon: "tf-ion-social-twitter"
+    link: "#"
+
+  - icon: "tf-ion-social-instagram"
+    link: "#"
+
+  - icon: "tf-ion-social-dribbble"
+    link: "#"
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet vulputate augue. Duis auctor lacus id vehicula gravida. Nam suscipit vitae purus et laoreet.

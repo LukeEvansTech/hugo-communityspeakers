@@ -1,9 +1,9 @@
 .section {
-  padding: 90px 0px;
+  padding: 90px 0;
 }
 
 .section-sm {
-  padding: 90px 0px;
+  padding: 90px 0;
 }
 
 .section-top {
@@ -26,7 +26,6 @@
   }
 }
 
-
 .form-control {
   border-color: $border-color;
   height: 50px;
@@ -42,37 +41,32 @@
   border-color: $primary-color;
 }
 
-
 .bg-secondary {
   background: $secondary-color !important;
 }
-
 
 .bg-primary {
   background: $primary-color !important;
 }
 
 .content-padding {
-  padding: 220px 0px 200px 0px;
+  padding: 220px 0 200px;
 }
 
 .btn {
   line-height: 1;
   padding: 16px 32px;
-  box-shadow: 0 11px 22px rgba(34, 34, 34, .2);
-  -webkit-transition: all .2s ease-in-out;
-  transition: all .2s ease-in-out;
+  box-shadow: 0 11px 22px rgb(34 34 34 / 20%);
+  transition: all 0.2s ease-in-out;
   will-change: box-shadow;
   font-size: 13px;
-  border-radius: 0px;
-  letter-spacing: .2em;
+  border-radius: 0;
+  letter-spacing: 0.2em;
   text-transform: uppercase;
   border: 2px solid transparent;
   font-weight: 700;
   font-family: $base-font;
 }
-
-
 
 .btn-rounded {
   border-radius: 60px;
@@ -90,8 +84,6 @@
   }
 }
 
-
-
 .btn-secondary {
   background: $secondary-color;
   border-color: $secondary-color;
@@ -103,7 +95,6 @@
     border-color: $secondary-color;
   }
 }
-
 
 .btn-gray {
   background: $gray-light;
@@ -129,11 +120,11 @@
 }
 
 .box-shadow {
-  box-shadow: 0 15px 38px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 15px 38px 0 rgb(0 0 0 / 10%);
 }
 
 .border-left {
-  border-left: 1px solid rgba(0, 0, 0, 0.06) !important;
+  border-left: 1px solid rgb(0 0 0 / 6%) !important;
 }
 
 .overflow-hidden {

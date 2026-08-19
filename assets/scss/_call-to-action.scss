@@ -1,61 +1,62 @@
-.cta{
-	position: relative;
+.cta {
+  position: relative;
 
-	&:before{
-		position: absolute;
-		content:"";
-		left: 0px;
-		top:0px;
-		width: 50%;
-		height: 70%;
-		background: url("../images/about/bg-1.jpg");
-		background-size: cover;
-	}
+  &::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 70%;
+    background: url("../images/about/bg-1.jpg");
+    background-size: cover;
+  }
 
-	.cta-content{
-		border:1px solid $border-color;
-	}
+  .cta-content {
+    border: 1px solid $border-color;
+  }
 }
 
-
 // CTA-2
-.cta-img{
-	position: relative;
+.cta-img {
+  position: relative;
 
-	.contact-info{
-		position: absolute;
-		content:"";
-		right: 40px;
-		bottom:-90px;
-		background: $white;
-		padding:60px 50px;
-		@include tablet {
-			position: static;
-		}
-	}
+  .contact-info {
+    position: absolute;
+    content: "";
+    right: 40px;
+    bottom: -90px;
+    background: $white;
+    padding: 60px 50px;
 
+    @include tablet {
+      position: static;
+    }
+  }
 }
 
 // Subscribe cta-3
 
-.sub-form{
-	position: relative;
-	.form-control{
-		border-color:$secondary-color;
-		height: 51px;
-	}
-	.btn{
-		position: absolute;
-		top: 0px;
-		right: 0;
-		margin-top: 0px !important;
-		display: inline-block;
-		padding: 17px 35px;
-		border-radius: 0px 5px 5px 0px;
+.sub-form {
+  position: relative;
 
-		&:hover{
-			background: $black;
-			color: $white;
-		}
-	}
+  .form-control {
+    border-color: $secondary-color;
+    height: 51px;
+  }
+
+  .btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 0 !important;
+    display: inline-block;
+    padding: 17px 35px;
+    border-radius: 0 5px 5px 0;
+
+    &:hover {
+      background: $black;
+      color: $white;
+    }
+  }
 }
