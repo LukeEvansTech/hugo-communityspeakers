@@ -1,49 +1,50 @@
 ################################# timer ############################
 timer:
-  enable : true
-  title : "**Count the days** <br>until conference start"
-  content : "Our intensive 2-day business conferences will teach you the specific steps and proven systems you need to implement and grow your business. We hope you’ll join us!"
+  enable: true
+  title: "**Count the days** <br>until conference start"
+  content: "Our intensive 2-day business conferences will teach you the specific steps and proven systems you need to implement and grow your business. We hope you’ll join us!"
   # timer value comes from "homepage.yml" file
 
 ################################# Pricing ##########################
 pricing:
-  enable : true
-  title_outline : "Tickets"
-  title : "Register Now"
-  content : "You can reserve your seat at the new speaker workshop now for the nominal fee of £15. <br>
-  <br>
-  Attendance is limited to 50 seats, to ensure we can deliver a great experience for attendees. Lunch will be provided. <br>
-  <br>
-  If you'd like to attend but can't afford to pay the cost for the workshop, please contact us at contact@communityspeakers.tech - there is no judgement, we'd like this to be an inclusive event."
+  enable: true
+  title_outline: "Tickets"
+  title: "Register Now"
+  content:
+    "You can reserve your seat at the new speaker workshop now for the nominal fee of £15. <br>
+    <br>
+    Attendance is limited to 50 seats, to ensure we can deliver a great experience for attendees. Lunch will be provided. <br>
+    <br>
+    If you'd like to attend but can't afford to pay the cost for the workshop, please contact us at contact@communityspeakers.tech - there is no judgement, we'd like this to be an inclusive event."
   pricing_table:
     # pricing table loop
-    - title : "Attend Workshop"
-      style : "1"
-      price : "£15"
-      icon : "tf-ion-android-bulb"
-      bg_image : "images/bg/page-header.jpg"
+    - title: "Attend Workshop"
+      style: "1"
+      price: "£15"
+      icon: "tf-ion-android-bulb"
+      bg_image: "images/bg/page-header.jpg"
       services:
         - "One day workshop"
         - "Practical skills"
         - "Expert guidance"
       button:
-        label : "Get now"
-        link : "https://www.eventbrite.com/e/microsoft-new-speakers-community-day-tickets-564684756307"
-        
+        label: "Get now"
+        link: "https://www.eventbrite.com/e/microsoft-new-speakers-community-day-tickets-564684756307"
+
     # pricing table loop
-    - title : "Gift a seat"
-      style : "2"
-      price : "£15"
-      icon : "tf-ion-android-hangout"
-      bg_image : "images/bg/page-header.jpg"
+    - title: "Gift a seat"
+      style: "2"
+      price: "£15"
+      icon: "tf-ion-android-hangout"
+      bg_image: "images/bg/page-header.jpg"
       services:
         - "Gift voucher for one seat"
         - "Donate to named individual"
         - "One day workshop"
       button:
-        label : "Gift now"
-        link : "https://giftup.app/place-order/15a7e021-0dba-4b20-0da8-08db1984a8f4?platform=hosted"
-        
+        label: "Gift now"
+        link: "https://giftup.app/place-order/15a7e021-0dba-4b20-0da8-08db1984a8f4?platform=hosted"
+
     # # pricing table loop
     # - title : "Economic"
     #   style : "3"
@@ -62,8 +63,8 @@ pricing:
     #   button:
     #     label : "Get now"
     #     link : "#"
-        
+
 ############################## Event ##############################
 event:
-  enable : false
+  enable: false
   # event content comes from "homepage.yml" file

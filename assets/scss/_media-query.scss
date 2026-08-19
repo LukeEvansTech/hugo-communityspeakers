@@ -1,31 +1,36 @@
-/*=== MEDIA QUERY ===*/
+/* === MEDIA QUERY === */
 @mixin mobile-xs {
-  @media (max-width: 400px) {
+  @media (width <= 400px) {
     @content;
   }
 }
+
 @mixin mobile {
-  @media (max-width: 480px) {
+  @media (width <= 480px) {
     @content;
   }
 }
+
 @mixin tablet-xs {
-  @media (max-width: 640px) {
+  @media (width <= 640px) {
     @content;
   }
 }
+
 @mixin tablet {
-  @media (max-width: 767px) {
+  @media (width <= 767px) {
     @content;
   }
 }
+
 @mixin desktop {
-  @media (max-width: 991px) {
+  @media (width <= 991px) {
     @content;
   }
 }
+
 @mixin large-desktop {
-  @media (max-width: 1200px) {
+  @media (width <= 1200px) {
     @content;
   }
 }

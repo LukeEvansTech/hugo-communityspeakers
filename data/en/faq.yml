@@ -6,7 +6,7 @@ faq:
   faq_item:
     # faq item loop
     - title: "Does my technical experience have to be in a specific area"
-      content: "This initiative and the workshop are suitable for people from any technology area.  We are focused on the Microsoft Tech stack and that's where you'll get the best additional resources and opportunties from us but the skills are relevant to all technology speakers."
+      content: "This initiative and the workshop are suitable for people from any technology area.  We are focused on the Microsoft Tech stack and that's where you'll get the best additional resources and opportunities from us but the skills are relevant to all technology speakers."
 
     # faq item loop
     - title: "I've spoken at one event before, do I still qualify?"
@@ -38,7 +38,7 @@ faq:
 
     # faq item loop
     - title: "Can we Sponsor the event?"
-      content: "Yes, we have a number of sponsorship opportinities availalbe from gifting a place to an attendee, through supporting a new speaker and refreshements for the event up to sponsoring attendee swag.  Please see our Sponsors page and fill in the form to request more information."
+      content: "Yes, we have a number of sponsorship opportunities available from gifting a place to an attendee, through supporting a new speaker and refreshments for the event up to sponsoring attendee swag.  Please see our Sponsors page and fill in the form to request more information."
 
     # faq item loop
     - title: "Can we Nominate/Sponsor a new speaker to attend?"
@@ -48,5 +48,5 @@ faq:
   support:
     title: "Need any further support?"
     button:
-      lable: "Contact us"
+      label: "Contact us"
       link: "contact"

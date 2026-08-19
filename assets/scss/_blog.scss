@@ -1,9 +1,6 @@
 .blog-article {
-  -webkit-transition: all 0.35s ease;
-  -moz-transition: all 0.35s ease;
-  -ms-transition: all 0.35s ease;
-  -o-transition: all 0.35s ease;
   transition: all 0.35s ease;
+
   .read-more {
     i {
       width: 30px;
@@ -36,18 +33,17 @@
 }
 
 // Blog Sidebar
-//
 
 .widget {
   .widget-title {
     padding-bottom: 10px;
     position: relative;
 
-    &:after {
+    &::after {
       position: absolute;
       content: "";
-      left: 0px;
-      bottom: 0px;
+      left: 0;
+      bottom: 0;
       border-bottom: 2px solid $secondary-color;
       width: 30px;
     }
@@ -55,12 +51,13 @@
 
   &.list-item {
     li {
-      padding: 15px 0px;
+      padding: 15px 0;
       font-size: 16px;
       border-bottom: 1px dashed $border-color;
     }
   }
 }
+
 .tags {
   a {
     display: inline-block;
@@ -89,22 +86,26 @@
 
 @include mobile {
   .comment-respond {
-    border: 0px;
+    border: 0;
   }
 
   .media {
     display: block;
+
     img {
       margin-bottom: 10px;
     }
   }
 }
+
 @include mobile-xs {
   .comment-respond {
-    border: 0px;
+    border: 0;
   }
+
   .media {
     display: block;
+
     img {
       margin-bottom: 10px;
     }

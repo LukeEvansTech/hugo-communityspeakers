@@ -1,9 +1,9 @@
 .package {
   text-align: center;
-  box-shadow: 0 11px 22px rgba(34, 34, 34, 0.2);
+  box-shadow: 0 11px 22px rgb(34 34 34 / 20%);
 
   .price-header {
-    padding: 60px 0px 60px 0px;
+    padding: 60px 0;
     background: url("../images/bg/page-header.jpg") no-repeat;
     background-size: cover;
     position: relative;
@@ -11,7 +11,7 @@
 
   ul {
     li {
-      padding: 5px 0px;
+      padding: 5px 0;
       color: $black;
     }
   }
@@ -28,6 +28,7 @@
     position: relative;
     z-index: 1;
   }
+
   i {
     font-size: 60px;
     color: $white;
@@ -55,6 +56,7 @@
     color: $white;
   }
 }
+
 .style-3 {
   .pname {
     border-color: $secondary-color;

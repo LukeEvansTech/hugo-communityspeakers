@@ -1,119 +1,118 @@
 schedule:
-  enable : true
-  title_outline : "schedule"
-  title : "Agenda for the Day"
-  content : "This full day structured workshop will give you everything you need to know to get started."
+  enable: true
+  title_outline: "schedule"
+  title: "Agenda for the Day"
+  content: "This full day structured workshop will give you everything you need to know to get started."
   schedule_tab:
     ################# tab item loop ################
-    - title : "Day 1"
-      date_time : "Saturday 20th of May 2023 09:00 to 17:00"
+    - title: "Day 1"
+      date_time: "Saturday 20th of May 2023 09:00 to 17:00"
       schedule_items:
         # schedule loop item
-        - time : "08:45"
-          image : ""
-          content : "
-          
-          ### Registration
-          
-          "
-          
-        # schedule loop item
-        - time : "09:00"
-          image : ""
-          content : "
-          
-          ### Welcome
-          "
-        # schedule loop item
-        - time : "09:15"
-          image : ""
-          content : "
-          
-          ### Getting a profile
-          
-          A personal brand  <br>
-          Accounts and speaker profiles  <br>
-          Finding events to submit to  <br>
-          The mechanics of submitting to speaker <br>
-          "  
-        # schedule loop item
-        - time : "10:30"
-          image : ""
-          content : "
-          
-          ### Break
- 
-          "  
-        # schedule loop item
-        - time : "10:45"
-          image : ""
-          content : "
-          
-          ### Session submissions
-          
-          What the events want  <br>
-          Analyzing sessions  <br>
-          Writing abstracts  <br>
-          The hook - a catchy title? <br>
-          "  
-          
-        # schedule loop item
-        - time : "10:30"
-          image : ""
-          content : "
-          
-          ### Lunch
- 
-          "  
-        # schedule loop item
-        - time : "13:15"
-          image : ""
-          content : "
-          
-          ### Presentation preparation and session content
-          
-          Mapping out a session plan  <br>
-          Slide design  <br>
-          Video or demo?  <br>
-          "  
-        # schedule loop item
-        - time : "14:45"
-          image : ""
-          content : "
-          
-          ### Break
- 
-          "  
-        
-        # schedule loop item
-        - time : "15:00"
-          image : ""
-          content : "
-          
-          ###  Delivery Techniques
-          
-          Tips and tricks  <br>
-          Practical  <br>
-          "  
+        - time: "08:45"
+          image: ""
+          content: "
 
-          
-        # schedule loop item
-        - time : "16:15"
-          image : ""
-          content : "
-          
-          ### Next steps
- 
-          "   
+            ### Registration
+
+            "
 
         # schedule loop item
-        - time : "17:00"
-          image : ""
-          content : "
-          
-          ### Close
- 
-          "   
+        - time: "09:00"
+          image: ""
+          content: "
+
+            ### Welcome
+            "
+        # schedule loop item
+        - time: "09:15"
+          image: ""
+          content: "
+
+            ### Getting a profile
+
+            A personal brand  <br>
+            Accounts and speaker profiles  <br>
+            Finding events to submit to  <br>
+            The mechanics of submitting to speaker <br>
+            "
+        # schedule loop item
+        - time: "10:30"
+          image: ""
+          content: "
+
+            ### Break
+
+            "
+        # schedule loop item
+        - time: "10:45"
+          image: ""
+          content: "
+
+            ### Session submissions
+
+            What the events want  <br>
+            Analyzing sessions  <br>
+            Writing abstracts  <br>
+            The hook - a catchy title? <br>
+            "
+
+        # schedule loop item
+        - time: "10:30"
+          image: ""
+          content: "
+
+            ### Lunch
+
+            "
+        # schedule loop item
+        - time: "13:15"
+          image: ""
+          content: "
+
+            ### Presentation preparation and session content
+
+            Mapping out a session plan  <br>
+            Slide design  <br>
+            Video or demo?  <br>
+            "
+        # schedule loop item
+        - time: "14:45"
+          image: ""
+          content: "
+
+            ### Break
+
+            "
+
+        # schedule loop item
+        - time: "15:00"
+          image: ""
+          content: "
+
+            ###  Delivery Techniques
+
+            Tips and tricks  <br>
+            Practical  <br>
+            "
+
+        # schedule loop item
+        - time: "16:15"
+          image: ""
+          content: "
+
+            ### Next steps
+
+            "
+
+        # schedule loop item
+        - time: "17:00"
+          image: ""
+          content: "
+
+            ### Close
+
+            "
 
     # ################# tab itam loop ################
     # - title : "Day 2"
@@ -123,7 +122,7 @@ schedule:
     #     - time : "2.00pm"
     #       image : "images/about/creativity.jpg"
     #       content : "
-          
+
     #       ### Cultures of Creativity
 
     #       ###### By Risabh moinul
@@ -135,26 +134,26 @@ schedule:
     #     - time : "9.00am"
     #       image : "images/about/wordpress.png"
     #       content : "
-          
+
     #       ### Launch Break
 
     #       ###### By Risabh moinul
 
     #       Founder of themefisher
     #       "
-          
+
     #     # schedule loop item
     #     - time : "9.00am"
     #       image : "images/about/big-data.png"
     #       content : "
-          
+
     #       ### Marketing Matters in design area
 
     #       ###### By Risabh moinul
 
     #       Founder of themefisher
     #       "
-          
+
     # ################# tab itam loop ################
     # - title : "Day 3"
     #   date_time : "15 Nov ,2019 [09.00am - 04.00pm]"
@@ -163,19 +162,19 @@ schedule:
     #     - time : "9.00am"
     #       image : "images/about/big-data.png"
     #       content : "
-          
+
     #       ### Marketing Matters in design area
 
     #       ###### By Risabh moinul
 
     #       Founder of themefisher
     #       "
-          
+
     #     # schedule loop item
     #     - time : "9.00am"
     #       image : "images/about/lunch.jpg"
     #       content : "
-          
+
     #       ### Launch Break
 
     #       ###### By Risabh moinul
@@ -187,19 +186,19 @@ schedule:
     #     - time : "9.00am"
     #       image : "images/about/wordpress.png"
     #       content : "
-          
+
     #       ### Introduction of material Design
 
     #       ###### By Risabh moinul
 
     #       Founder of themefisher
     #       "
-          
+
     #     # schedule loop item
     #     - time : "2.00pm"
     #       image : "images/about/creativity.jpg"
     #       content : "
-          
+
     #       ### Cultures of Creativity
 
     #       ###### By Risabh moinul

@@ -1,3 +1,8 @@
+/* stylelint-disable selector-class-pattern -- The .syotimer-* names are the
+   jQuery syotimer countdown plugin's own BEM markup (see assets/js/script.js,
+   which calls $("#simple-timer").syotimer(...)). The plugin emits these class
+   names itself, so renaming them to kebab-case would silently stop the
+   countdown from being styled. */
 .counter-wrapper {
   margin-top: -70px;
 }
@@ -6,7 +11,7 @@
   padding: 50px;
   position: relative;
 
-  &:before {
+  &::before {
     position: absolute;
     content: "";
     left: -5%;
@@ -14,8 +19,8 @@
     width: 200%;
     height: 100%;
     background: $white;
-    border-radius: 100px 0px 0px 100px;
-    box-shadow: 0 15px 38px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 100px 0 0 100px;
+    box-shadow: 0 15px 38px 0 rgb(0 0 0 / 10%);
   }
 
   .counter-stat {
@@ -30,6 +35,7 @@
     position: relative;
     z-index: 1;
   }
+
   @include desktop {
     padding: 50px 20px;
   }
@@ -49,13 +55,15 @@
   height: 100px;
   width: 115px;
   border-radius: 3px;
-  background: rgba(255, 255, 255, 0.7);
+  background: rgb(255 255 255 / 70%);
   text-align: center;
   padding-top: 15px;
   margin-right: 10px;
+
   @include desktop {
     width: 100px;
   }
+
   @include mobile {
     width: 65px;
     height: 70px;
@@ -72,6 +80,7 @@
   font-size: 45px;
   line-height: 45px;
   color: $black;
+
   @include mobile {
     font-size: 30px;
     line-height: 30px;

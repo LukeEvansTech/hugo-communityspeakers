@@ -12,9 +12,13 @@ skip = */themes/*,*/node_modules/*,*/public/*,./.git
 #   Analitycs / analitycs  the theme reads `.Site.Params.google_analitycs_id`
 #                          (themes/vixcon-hugo/layouts/partials/footer.html:59),
 #                          so renaming the key in config.toml disables Google
-#                          Analytics with no error.
-#   schdule                assets/scss/style.scss does `@import "schdule.scss"`
-#                          and the file really is named schdule.scss.
+#                          Analytics with no error. The key in config.toml is
+#                          commented out and keeps its original spelling; only
+#                          the human comment above it now reads "Analytics".
+#   schdule                retained for the vendored theme's own copy at
+#                          themes/vixcon-hugo/assets/scss/style.scss. Our copy
+#                          of the partial was renamed to _schedule.scss and its
+#                          @import updated to match.
 #   subsciption            adjacent comment in the same theme config block.
 #
 # The rest are in content/english/{author,blog}/ - verbatim copies of the
@@ -23,4 +27,6 @@ skip = */themes/*,*/node_modules/*,*/public/*,./.git
 #   nam         Latin; lorem ipsum in the demo author pages.
 #   backgrount  a typo in an upstream comment (`# page title backgrount image`).
 #   Hart        a surname in the demo article text, not a misspelling of Heart.
-ignore-words-list = analitycs,schdule,subsciption,nam,backgrount,hart
+#   optio       Latin; same lorem ipsum sentence as `nam`, in the disabled
+#               homepage blog block (data/en/homepage.yml, blog.enable: false).
+ignore-words-list = analitycs,schdule,subsciption,nam,backgrount,hart,optio

@@ -1,11 +1,11 @@
 .about-img {
-  box-shadow: 0 15px 38px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 15px 38px 0 rgb(0 0 0 / 10%);
 
   .img-block {
     position: absolute;
     content: "";
     bottom: -70px;
-    right: 0px;
+    right: 0;
     left: 30%;
     width: 100%;
     border: 10px solid $white;
@@ -31,6 +31,7 @@
   @include tablet {
     font-size: 90px;
   }
+
   @include mobile {
     font-size: 50px;
   }
