@@ -1,5 +1,5 @@
 # Update the NODE_VERSION arg in docker-compose.yml to pick a Node version: 18, 16, 14
-ARG NODE_VERSION=26@sha256:045e66010973363cc211c8d86133580eb6106713314797066efe60cba970b9a8
+ARG NODE_VERSION=26@sha256:79dc0a2abec8743065a7b43774f9301f18c1a6f69702acd0010b9b06d9789041
 FROM mcr.microsoft.com/devcontainers/javascript-node:${NODE_VERSION}
 
 # VARIANT can be either 'hugo' for the standard version or 'hugo_extended' for the extended version.
